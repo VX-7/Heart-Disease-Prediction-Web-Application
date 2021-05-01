@@ -7,6 +7,8 @@ from sklearn.datasets import make_classification
 from sklearn.metrics import accuracy_score
 
 heart_data = pd.read_csv (r'C:\Users\MY PC\Desktop\Workspace\HFP\heart_failure_clinical_records_dataset.csv')
+heart_data = pd.read_csv (r'C:\Users\Sumit\Desktop\hfp\Heart-Disease-Prediction-Web-Application-Version-Z\heart_failure_clinical_records_dataset.csv')
+
 
 X = heart_data.iloc[:,[4,7]]
 y = heart_data.iloc[:,-1]
